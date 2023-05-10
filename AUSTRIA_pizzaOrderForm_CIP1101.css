@@ -1,0 +1,27 @@
+body {
+    background: #c95f19;
+      font-family: "montserrat","got-book","-apple-system,BlinkMacSystemFont","Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Burger {
+    width: auto;
+    height: 100px;
+  }
+  
+  .Pasta {
+    width: auto;
+    height: 150px;
+  }
+  
+  .Fries {
+    width: auto;
+    height: 120px;
+  }
+  
+  .Drinks {
+    width: auto;
+    height: 140px;
+  }

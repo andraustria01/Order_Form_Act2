@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Form</title>
+	<link rel="stylesheet" type="text/css" href="AUSTRIA_pizzaOrderForm_CIP1101.css">
+</head>
+<body>
+	<h1>Pizza Order Form</h1>
+	<form method="post" action="">
+    <fieldset>
+			<legend>Customer Information</legend>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<br>
+      <br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+      <br>
+      <br>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+			<br>
+      <br>
+			<label for="address">Delivery Address:</label>
+			<input type="text" id="address" name="address">
+			<br>
+      <br>
+			<label for="delivery">Delivery or Pick up:</label>
+			<select id="delivery" name="delivery">
+				<option value="Delivery">Delivery</option>
+				<option value="Pick up">Pick up</option>
+			</select>
+			<br>
+      <br>
+			<label for="feedback">Directions to the Place:</label>
+			<textarea id="feedback" name="feedback"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Burger</legend>
+      <img class="Burger" src="AUSTRIA_IMAGES_CIP1101/Burger.jpg" alt="Burger">
+      <br>
+			<label for="bun">Choice of bun:</label>
+			<select id="bun" name="bun">
+				<option value="White Bun">White Bun</option>
+				<option value="Wheat Bun">Wheat Bun</option>
+				<option value="Honey Oat">Honey Oat</option>
+				<option value="Sugar Free">Sugar Free</option>
+			</select>
+			<br>
+      <br>
+			<label for="quantity">Quantity Per Pcs:</label>
+			<input type="number" id="quantity" name="quantity" min="1">
+		</fieldset>
+		<fieldset>
+			<legend>Pasta</legend><img class="Pasta" src="AUSTRIA_IMAGES_CIP1101/Pasta.jpg" alt="Pasta">
+      <br>
+      <select id="bun" name="bun">
+				<option value="Carbonara">Carbonara</option>
+				<option value="Pesto">Pesto</option>
+				<option value="Spaghetti">Spaghetti</option>
+			</select>
+			<br>
+      <br>
+			<label for="quantity-per-box">Quantity per box:</label>
+			<input type="number" id="quantity-per-box" name="quantity-per-box" min="1" >
+		</fieldset>
+		<fieldset>
+			<legend>Fries</legend><img class="Fries" src="AUSTRIA_IMAGES_CIP1101/Fries.jpg" alt="Fries">
+      <br>
+			<label for="size">Size:</label>
+			<select id="size" name="size">
+				<option value="Small">Small</option>
+				<option value="Medium">Medium</option>
+				<option value="Large">Large</option>
+			</select>
+      <select id="flavor" name="flavor">
+			<option value="bbq">BBQ</option>
+			<option value="cheese">Cheese</option>
+			<option value="sour-cream">Sour Cream</option>
+		</select>
+		</fieldset>
+		<fieldset>
+			<legend>Drinks</legend><img class="Drinks" src="AUSTRIA_IMAGES_CIP1101/Drinks.jpg" alt="Burger">
+      <br>
+			<label for="drink">Choice of drink:</label>
+			<select id="drink" name="drink">
+				<option value="Juice">Juice</option>
+				<option value="water">Water</option>
+				<option value="Soda">Soda</option>
+			</select>
+      <select id="size" name="size">
+				<option value="Small">Small</option>
+				<option value="Medium">Medium</option>
+				<option value="Large">Large</option>
+			</select>
+		</fieldset>
+    <fieldset>
+    <legend>Feedback</legend>
+		<label for="feedback">How can we improve the ordering form?</label>
+      <br>
+		<textarea id="feedback" name="feedback"></textarea>
+     <br>
+		<button type="submit">Submit Order</button>
+		<button type="reset">Clear Form</button>
+    </fieldset>  
+	</form>
+</body>
+</html>
